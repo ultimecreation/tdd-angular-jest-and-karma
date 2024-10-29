@@ -1,0 +1,9 @@
+<button [disabled]="disabled || apiProgress" class="btn btn-primary">
+  <span
+    *ngIf="apiProgress"
+    class="spinner-border spinner-border-sm"
+    role="status"
+    aria-hidden="true"
+  ></span>
+  <ng-content></ng-content>
+</button>
