@@ -3,7 +3,7 @@ import { Component, OnInit } from '@angular/core';
 import { UserService } from '../core/user.service';
 import { FormControl, FormGroup, Validators } from '@angular/forms';
 import { passwordsMatchValidator } from './passworMatch.validator';
-import UniqueEmailValidator from './uniqueEmailValidator';
+import UniqueEmailValidator from './UniqueEmailValidator';
 import { HttpErrorResponse } from '@angular/common/http';
 
 

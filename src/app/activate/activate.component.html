@@ -1,0 +1,8 @@
+<div data-testid="activation-page">
+  <app-alert *ngIf="activationStatus === 'success'" type="success"
+    >Account is activated</app-alert
+  >
+  <app-alert *ngIf="activationStatus === 'fail'" type="danger"
+    >Activation Failure</app-alert
+  >
+</div>
